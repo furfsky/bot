@@ -14,9 +14,9 @@ client.on("ready", async () => {
 client.on("message", async (msg) => {
   if (msg.author.bot) return;
   if (msg.author.id == client.user?.id) return;
-  if (!msg.content.startsWith(process.env.PREFIX)) return;
+  if (!msg.content.startsWith(process.env.BOT_PREFIX)) return;
   const [cmd, ...args] = msg.content
-    .slice(process.env.PREFIX.length)
+    .slice(process.env.BOT_PREFIX.length)
     .replace(/ +/g, " ")
     .split(" ");
   const commandClass = commands.find((command) => {

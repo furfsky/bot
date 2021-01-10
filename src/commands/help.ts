@@ -10,7 +10,7 @@ const entry = (
   args: string[],
   description: string
 ) => {
-  return `\`${process.env.PREFIX}${cmd}${args.map(
+  return `\`${process.env.BOT_PREFIX}${cmd}${args.map(
     (arg) => ` <${arg}> `
   )}\` - ${description}
   `;

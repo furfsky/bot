@@ -48,6 +48,31 @@ const humanData = [
       },
     ],
   },
+  {
+    aliases: ["parakeet", "parakeetiscool", "para"],
+    things: [
+      {
+        thing: ["gay", `"happy"`],
+        response: ["unsure", "possibly", "maybe"],
+      },
+      {
+        thing: ["an_artist"],
+        response: ["no."],
+      },
+    ],
+  },
+  {
+    aliases: ["sebook", "sebirb"],
+    things: [
+      {
+        thing: ["demoted"],
+        response: ["he should", "ofc", "demote that dumbass any day"],
+      },
+    ],
+  },
+  {
+    aliases:["voxal"]
+  }
 ];
 
 export class CommandIs implements Command {
