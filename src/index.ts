@@ -1,15 +1,26 @@
-import { Client, Message, Guild, GuildEmoji } from "discord.js";
+import { Client, Message, Guild, TextChannel } from "discord.js";
 import { commands } from "./commands/index";
 import { config } from "dotenv";
-const client = new Client();
+import { MikroORM } from "@mikro-orm/core";
+import mikroConfig from "./mikro-orm.config";
+import { User } from "./entities/user";
+export const client = new Client();
 config();
-export const kek = client.emojis.cache.get("797198600718647317");
+const connect = async () => {
+  const orm = await MikroORM.init(mikroConfig)
+  const voxal = orm.em.create(User, { id: "290952090560364545" });
+  await orm.em.persistAndFlush(voxal).catch(err=>console.log(err));
+  return orm;
+};
+
 client.on("ready", async () => {
   const guild = await client.guilds.fetch("771187253937438762");
   console.log(`Logged in as ${client.user.tag}!`);
-  client.user.setActivity(`over ${guild.memberCount} furries`, {
-    type: "WATCHING",
-  });
+  setInterval(() => {
+    client.user.setActivity(`over ${guild.memberCount - 6} furries`, {
+      type: "WATCHING",
+    });
+  }, 30000);
 });
 client.on("message", async (msg) => {
   if (msg.author.bot) return;
@@ -23,6 +34,7 @@ client.on("message", async (msg) => {
     return command.aliases.some((c) => c.toLowerCase() === cmd.toLowerCase());
   });
   if (!commandClass) return;
+
   await commandClass
     .execute({
       msg: msg as Message & { guild: Guild },
@@ -31,7 +43,7 @@ client.on("message", async (msg) => {
     })
     .catch((e) => {
       console.log(e);
-      msg.channel.send(e);
     });
 });
 client.login(process.env.DISCORD_TOKEN);
+export const orm = connect();

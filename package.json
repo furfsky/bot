@@ -21,8 +21,19 @@
     "typescript": "^4.1.3"
   },
   "dependencies": {
+    "@mikro-orm/cli": "^4.3.4",
+    "@mikro-orm/core": "^4.3.4",
+    "@mikro-orm/migrations": "^4.3.4",
+    "@mikro-orm/postgresql": "^4.3.4",
     "discord.js": "^12.5.1",
     "dotenv": "^8.2.0",
+    "jimp": "^0.16.1",
     "util": "^0.12.3"
+  },
+  "mikro-orm": {
+    "configPaths": [
+      "./src/mikro-orm.config.ts",
+      "./dist/mikro-orm.config.js"
+    ]
   }
 }

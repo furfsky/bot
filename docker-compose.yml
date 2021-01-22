@@ -1,0 +1,27 @@
+version: "3.9"
+
+services:
+  db:
+    network_mode: bridge
+    image: postgres:13
+    volumes:
+      - db-data:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_DB
+      - POSTGRES_PASSWORD
+  app:
+    build: .
+    network_mode: bridge
+    volumes:
+      - app-data:/app/data
+    depends_on:
+      - db
+    links:
+      - "db:db"
+    env_file: .env
+    environment:
+      POSTGRES_HOST: db
+
+volumes:
+  app-data: {}
+  db-data: {}

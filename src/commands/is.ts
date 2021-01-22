@@ -62,17 +62,25 @@ const humanData = [
     ],
   },
   {
-    aliases: ["sebook", "sebirb"],
+    aliases: ["sebook", "sebirb","seboob"],
     things: [
       {
         thing: ["demoted"],
         response: ["he should", "ofc", "demote that dumbass any day"],
       },
+      {
+        thing: ["a_sellout"],
+        response: [
+          "yes",
+          "uhuh",
+          "https://cdn.discordapp.com/attachments/772844452116824106/798057150328471592/unknown.png",
+        ],
+      },
     ],
   },
   {
-    aliases:["voxal"]
-  }
+    aliases: ["voxal"],
+  },
 ];
 
 export class CommandIs implements Command {

@@ -1,8 +1,7 @@
 import { Command, CmdArgs } from ".";
 import { Message, MessageEmbed } from "discord.js";
-import { kek } from "..";
 
-export class CommandKekw implements Command {
+export class CommandKek implements Command {
   aliases = ["kek","kekw"];
   cmdDocs = {
     description: "kek",

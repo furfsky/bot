@@ -1,8 +1,11 @@
 import { Message } from "discord.js";
 import { CommandHelp } from "./help";
 import { CommandIs } from "./is";
-import { CommandKekw } from "./kek";
-
+import { CommandKek } from "./kek";
+import { CommandRules } from "./rules";
+import { CommandSay } from "./say";
+import { CommandFaq } from "./faq";
+import { CommandTexture } from "./texture";
 export interface CmdArgs {
   msg: Message;
   args: string[];
@@ -19,5 +22,9 @@ export interface Command {
 export const commands: Command[] = [
   new CommandHelp(),
   new CommandIs(),
-  new CommandKekw(),
+  new CommandKek(),
+  new CommandSay(),
+  new CommandRules(),
+  new CommandFaq(),
+  new CommandTexture(),
 ];
