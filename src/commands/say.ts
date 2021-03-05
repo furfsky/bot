@@ -10,7 +10,6 @@ export class CommandSay implements Command {
   async execute(cmdArgs: CmdArgs): Promise<void | Message> {
     const whitelist = [
       "290952090560364545",
-      "577629191588282368",
       "312354836592984066",
       "622207953293803521",
       "323135820439486474",
