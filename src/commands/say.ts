@@ -10,7 +10,6 @@ export class CommandSay implements Command {
   async execute(cmdArgs: CmdArgs): Promise<void | Message> {
     const whitelist = [
       "290952090560364545",
-      "653038455739121700",
     ];
     const { msg, args } = cmdArgs;
     const channel = msg.client.channels.cache.find(
