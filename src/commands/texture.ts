@@ -16,6 +16,9 @@ export class CommandTexture implements Command {
       "../../src/files/FurfSky/assets",
       args[0]
     );
+    if(args[0].split("../").length > 2)
+      return msg.channel.send("Don't spy on my files fucker.");
+    
     if (!fs.existsSync(pathToTexture))
       return msg.channel.send("That file doesn't exist");
     if (fs.lstatSync(pathToTexture).isDirectory())

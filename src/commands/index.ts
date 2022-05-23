@@ -6,6 +6,7 @@ import { CommandRules } from "./rules";
 import { CommandSay } from "./say";
 import { CommandFaq } from "./faq";
 import { CommandTexture } from "./texture";
+import { CommandUpdate } from "./update";
 export interface CmdArgs {
   msg: Message;
   args: string[];
@@ -27,4 +28,5 @@ export const commands: Command[] = [
   new CommandRules(),
   new CommandFaq(),
   new CommandTexture(),
+  new CommandUpdate()
 ];

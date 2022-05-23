@@ -12,9 +12,9 @@ export class User {
   updatedAt = new Date();
 
   @Property({ type: "number", default: 0 })
-  xp!: number;
+  xp: number;
 
-  // constructor(id: string) {
-  //   this.id = id;
-  // }
+  constructor(id: string) {
+    this.id = id;
+  }
 }

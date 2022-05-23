@@ -1,6 +1,5 @@
 import { Command, CmdArgs } from ".";
 import { Message, MessageEmbed } from "discord.js";
-import { orm } from "..";
 
 export class CommandTest implements Command {
   aliases = ["test"];
@@ -9,14 +8,13 @@ export class CommandTest implements Command {
   };
   async execute(cmdArgs: CmdArgs): Promise<void | Message> {
     const { msg } = cmdArgs;
-    
+
     msg.channel.send(
-        
       new MessageEmbed({
-          title:"Rules",
-          description:`
+        title: "Rules",
+        description: `
           `,
-          color:"#fbcc6c"
+        color: "#fbcc6c",
       })
     );
   }

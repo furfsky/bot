@@ -6,16 +6,12 @@ import mikroConfig from "./mikro-orm.config";
 import { User } from "./entities/user";
 export const client = new Client();
 config();
-const connect = async () => {
-  const orm = await MikroORM.init(mikroConfig)
-  const voxal = orm.em.create(User, { id: "290952090560364545" });
-  await orm.em.persistAndFlush(voxal).catch(err=>console.log(err));
-  return orm;
-};
 
 client.on("ready", async () => {
   const guild = await client.guilds.fetch("771187253937438762");
   console.log(`Logged in as ${client.user.tag}!`);
+  guild.members.fetch();
+
   setInterval(() => {
     client.user.setActivity(`over ${guild.memberCount - 6} furries`, {
       type: "WATCHING",
@@ -46,4 +42,3 @@ client.on("message", async (msg) => {
     });
 });
 client.login(process.env.DISCORD_TOKEN);
-export const orm = connect();

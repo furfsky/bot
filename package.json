@@ -25,6 +25,7 @@
     "@mikro-orm/core": "^4.3.4",
     "@mikro-orm/migrations": "^4.3.4",
     "@mikro-orm/postgresql": "^4.3.4",
+    "axios": "^0.21.1",
     "discord.js": "^12.5.1",
     "dotenv": "^8.2.0",
     "jimp": "^0.16.1",

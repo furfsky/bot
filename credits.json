@@ -1,0 +1,591 @@
+{
+  "roles": {
+    "772842526452875305": { "name": "Head of Head Artist", "color": "#ffa500" },
+    "776504774317047859": { "name": "Head Artist", "color": "#d776ff" },
+    "859275007556845578": {
+      "name": "Original Furfsky Creator",
+      "color": "#c041ff"
+    },
+    "772842293223751690": { "name": "Artist", "color": "#b19cd9" },
+    "786640237329383506": { "name": "Retired Artist", "color": "#bbabdb" },
+    "772928360241954846": { "name": "Contributor", "color": "#00b0b0" },
+    "792234642304139284": { "name": "Administrator", "color": "#4b8b3b" },
+    "772882533578047519": { "name": "Moderator", "color": "#17d44a" },
+    "786640364920504330": { "name": "Retired Staff", "color": "#0d7f2c" }
+  },
+  "credits": [
+    {
+      "id": "291620843363106828",
+      "name": "Tylerrrr",
+      "role": "772842526452875305",
+      "pfp": "https://cdn.discordapp.com/avatars/291620843363106828/e03579822584725a65d1c85dc60ce576.webp"
+    },
+    {
+      "id": "382275562762403852",
+      "name": "Smolegit",
+      "role": "776504774317047859",
+      "pfp": "https://cdn.discordapp.com/avatars/382275562762403852/8c191662e53fcf93985065157bfa8718.webp"
+    },
+    {
+      "id": "200440882334269440",
+      "name": "furf",
+      "role": "859275007556845578",
+      "pfp": "https://cdn.discordapp.com/avatars/200440882334269440/f51aa982adba759a75e26cb4ab9b540e.webp"
+    },
+    {
+      "id": "514752918830710785",
+      "name": "Eggman",
+      "role": "772842293223751690",
+      "pfp": "https://cdn.discordapp.com/avatars/514752918830710785/9c3c506e2556cd528395050620ee09ff.webp"
+    },
+    {
+      "id": "335828900661821441",
+      "name": "penk",
+      "role": "772842293223751690",
+      "pfp": "https://cdn.discordapp.com/avatars/335828900661821441/7c856898c7d43717b3b752b9b4eb20d4.webp"
+    },
+    {
+      "id": "490923254236839936",
+      "name": "me.™",
+      "role": "772842293223751690",
+      "pfp": "https://cdn.discordapp.com/avatars/490923254236839936/102889e462d6d65d1e814b149d95c3d6.webp"
+    },
+    {
+      "id": "146051610475233280",
+      "name": "Hexafish",
+      "role": "772842293223751690",
+      "pfp": "https://cdn.discordapp.com/avatars/146051610475233280/a_5e34438941e21b25ac81ce1f7613c716.webp"
+    },
+    {
+      "id": "734445096606498918",
+      "name": "goose",
+      "role": "772842293223751690",
+      "pfp": "https://cdn.discordapp.com/avatars/734445096606498918/21425b36e55dd04c614d182121d9c635.webp"
+    },
+    {
+      "id": "687833315231006749",
+      "name": "zburger",
+      "role": "772842293223751690",
+      "pfp": "https://cdn.discordapp.com/avatars/687833315231006749/6d1e70afd96eabcc093a2704a4f78fb9.webp"
+    },
+    {
+      "id": "577629191588282368",
+      "name": "PcArt01",
+      "role": "772842293223751690",
+      "pfp": "https://cdn.discordapp.com/avatars/577629191588282368/81912ecb31de6d47a7a37886c96a552c.webp"
+    },
+    {
+      "id": "425424496099328000",
+      "name": "Ropes",
+      "role": "772842293223751690",
+      "pfp": "https://cdn.discordapp.com/avatars/425424496099328000/bc450041267aa1dcb3756695880dbb48.webp"
+    },
+    {
+      "id": "501459973612765205",
+      "name": "motor",
+      "role": "772842293223751690",
+      "quote": "Flip a coin. If heads, I am on vacation. If tails, blame Ery.",
+      "pfp": "https://cdn.discordapp.com/avatars/501459973612765205/dab7489911ae58fce75aa8d9d0126b45.webp"
+    },
+    {
+      "id": "567357006185496610",
+      "name": "Glenz",
+      "role": "772842293223751690",
+      "pfp": "https://cdn.discordapp.com/avatars/567357006185496610/087148df097825a11b822ee150bfc6ec.webp"
+    },
+    {
+      "id": "200440882334269440",
+      "name": "furf",
+      "role": "772842293223751690",
+      "pfp": "https://cdn.discordapp.com/avatars/200440882334269440/f51aa982adba759a75e26cb4ab9b540e.webp"
+    },
+    {
+      "id": "147040087027220480",
+      "name": "Thanatos",
+      "role": "772842293223751690",
+      "pfp": "https://cdn.discordapp.com/avatars/147040087027220480/7907376d74cbd0345c716edeb1abbe47.webp"
+    },
+    {
+      "id": "273873363926253568",
+      "name": "FoxScript",
+      "role": "772842293223751690",
+      "pfp": "https://cdn.discordapp.com/avatars/273873363926253568/728b884d264297f308a2e0160370d504.webp"
+    },
+    {
+      "id": "517473096559624206",
+      "name": "Papaya",
+      "role": "772842293223751690",
+      "pfp": "https://cdn.discordapp.com/avatars/517473096559624206/1bfb71658cade1e1639dc8dd986bb38e.webp"
+    },
+    {
+      "id": "412224011062214656",
+      "name": "GqmeKnight",
+      "role": "772842293223751690",
+      "pfp": "https://cdn.discordapp.com/avatars/412224011062214656/ae1d886ff4bc260438f564f786332250.webp"
+    },
+    {
+      "id": "341667514071384065",
+      "name": "invalid-user",
+      "role": "772842293223751690",
+      "pfp": "https://cdn.discordapp.com/avatars/341667514071384065/567ae365c54664e7b5b470883e124ba3.webp"
+    },
+    {
+      "id": "226767818878746624",
+      "name": "aGrxpe",
+      "role": "772842293223751690",
+      "pfp": "https://cdn.discordapp.com/avatars/226767818878746624/5c9f246b727909b999df4df45748fd18.webp"
+    },
+    {
+      "id": "589613735996555264",
+      "name": "D43DALUS",
+      "role": "772842293223751690",
+      "pfp": "https://cdn.discordapp.com/avatars/589613735996555264/04bd0641bf85502e1dea148e35effe94.webp"
+    },
+    {
+      "id": "622207953293803521",
+      "name": "tea",
+      "role": "772842293223751690",
+      "pfp": "https://cdn.discordapp.com/avatars/622207953293803521/baef5f6d0be0727ca9225df87b690754.webp"
+    },
+    {
+      "id": "880036918451142737",
+      "name": "duck.",
+      "role": "786640237329383506",
+      "pfp": "https://cdn.discordapp.com/avatars/880036918451142737/0bc009f56e46bc2e620402989e437981.webp"
+    },
+    {
+      "id": "506442020118855681",
+      "name": "GenesiS",
+      "role": "786640237329383506",
+      "pfp": "https://cdn.discordapp.com/avatars/506442020118855681/05dbdab33f44f073ce94333653b21e06.webp"
+    },
+    {
+      "id": "370758856038678530",
+      "name": "resanityyy",
+      "role": "786640237329383506",
+      "pfp": "https://cdn.discordapp.com/avatars/370758856038678530/f905c4d1a9ad516ef79b501a7786f5fb.webp"
+    },
+    {
+      "id": "493164641921400853",
+      "name": "Shrimp",
+      "role": "786640237329383506",
+      "pfp": "https://cdn.discordapp.com/avatars/493164641921400853/3b1f555aec702ac9f11994de3116d9a5.webp"
+    },
+    {
+      "id": "378106137586827276",
+      "name": "Skeletony",
+      "role": "786640237329383506",
+      "pfp": "https://cdn.discordapp.com/avatars/378106137586827276/79f8c2ab1db974e3b774055440345fe9.webp"
+    },
+    {
+      "id": "663371660816154629",
+      "name": "PigTurtle",
+      "role": "786640237329383506",
+      "pfp": "https://cdn.discordapp.com/avatars/663371660816154629/63b0242dcab4c4f92fab9acef4228f71.webp"
+    },
+    {
+      "id": "364103462150995968",
+      "name": "Amie",
+      "role": "772928360241954846",
+      "pfp": "https://cdn.discordapp.com/avatars/364103462150995968/e8f173aad02a1aac3ffbb399d0b2059a.webp"
+    },
+    {
+      "id": "880036918451142737",
+      "name": "duck.",
+      "role": "772928360241954846",
+      "pfp": "https://cdn.discordapp.com/avatars/880036918451142737/0bc009f56e46bc2e620402989e437981.webp"
+    },
+    {
+      "id": "221205857088700417",
+      "name": "TopComp",
+      "role": "772928360241954846",
+      "pfp": "https://cdn.discordapp.com/avatars/221205857088700417/8c45b62213937d952938c96cbc998eb5.webp"
+    },
+    {
+      "id": "390660621957464074",
+      "name": "Vinni",
+      "role": "772928360241954846",
+      "pfp": "https://cdn.discordapp.com/avatars/390660621957464074/3c7eaef7820f780003b2010358838fe1.webp"
+    },
+    {
+      "id": "514752918830710785",
+      "name": "Eggman",
+      "role": "772928360241954846",
+      "pfp": "https://cdn.discordapp.com/avatars/514752918830710785/9c3c506e2556cd528395050620ee09ff.webp"
+    },
+    {
+      "id": "712340020945748049",
+      "name": "Panka",
+      "role": "772928360241954846",
+      "pfp": "https://cdn.discordapp.com/avatars/712340020945748049/91d438afa9f1da840354bde87da910b5.webp"
+    },
+    {
+      "id": "323135820439486474",
+      "name": "InfinityRing",
+      "role": "772928360241954846",
+      "pfp": "https://cdn.discordapp.com/avatars/323135820439486474/a_9ecf0b139c0b2e2823ab8640276852fd.webp"
+    },
+    {
+      "id": "435443705055543306",
+      "name": "nacrt",
+      "role": "772928360241954846",
+      "pfp": "https://cdn.discordapp.com/avatars/435443705055543306/a_62f8bf3cdd867f7ef3f39df1982615d1.webp"
+    },
+    {
+      "id": "490923254236839936",
+      "name": "me.™",
+      "role": "772928360241954846",
+      "pfp": "https://cdn.discordapp.com/avatars/490923254236839936/102889e462d6d65d1e814b149d95c3d6.webp"
+    },
+    {
+      "id": "312354836592984066",
+      "name": "Toasted_Breaad",
+      "role": "772928360241954846",
+      "pfp": "https://cdn.discordapp.com/avatars/312354836592984066/29bcb0834b272c546d52f163aae523bd.webp"
+    },
+    {
+      "id": "497789163555389441",
+      "name": "jani270",
+      "role": "772928360241954846",
+      "pfp": "https://cdn.discordapp.com/avatars/497789163555389441/a1348b600f44b9268c2950c2e82355b9.webp"
+    },
+    {
+      "id": "734445096606498918",
+      "name": "goose",
+      "role": "772928360241954846",
+      "pfp": "https://cdn.discordapp.com/avatars/734445096606498918/21425b36e55dd04c614d182121d9c635.webp"
+    },
+    {
+      "id": "687833315231006749",
+      "name": "zburger",
+      "role": "772928360241954846",
+      "pfp": "https://cdn.discordapp.com/avatars/687833315231006749/6d1e70afd96eabcc093a2704a4f78fb9.webp"
+    },
+    {
+      "id": "135467966014816256",
+      "name": "ThatGravyBoat",
+      "role": "772928360241954846",
+      "pfp": "https://cdn.discordapp.com/avatars/135467966014816256/a_f9e4ef83d76fb2bdb7d65017ef700913.webp"
+    },
+    {
+      "id": "773707901939613767",
+      "name": "Leime",
+      "role": "772928360241954846",
+      "pfp": "https://cdn.discordapp.com/avatars/773707901939613767/b7155728ed1c5ac2d69be69a818342ab.webp"
+    },
+    {
+      "id": "454615922909380619",
+      "name": "SeBook",
+      "role": "772928360241954846",
+      "pfp": "https://cdn.discordapp.com/avatars/454615922909380619/a_0fe1f24fe0fa9feb26f07097d43fc529.webp"
+    },
+    {
+      "id": "722532091455340714",
+      "name": "SausageDog359",
+      "role": "772928360241954846",
+      "pfp": "https://cdn.discordapp.com/avatars/722532091455340714/2e7fb3837a2a1d668e01df2b770c6b2a.webp"
+    },
+    {
+      "id": "425424496099328000",
+      "name": "Ropes",
+      "role": "772928360241954846",
+      "pfp": "https://cdn.discordapp.com/avatars/425424496099328000/bc450041267aa1dcb3756695880dbb48.webp"
+    },
+    {
+      "id": "501459973612765205",
+      "name": "motor",
+      "role": "772928360241954846",
+      "quote": "Flip a coin. If heads, I am on vacation. If tails, blame Ery.",
+      "pfp": "https://cdn.discordapp.com/avatars/501459973612765205/dab7489911ae58fce75aa8d9d0126b45.webp"
+    },
+    {
+      "id": "687765920092782644",
+      "name": "NoPro2024",
+      "role": "772928360241954846",
+      "pfp": "https://cdn.discordapp.com/avatars/687765920092782644/f308b876f60e424151d2953b48d0a7cd.webp"
+    },
+    {
+      "id": "459498565371166720",
+      "name": "Shy",
+      "role": "772928360241954846",
+      "pfp": "https://cdn.discordapp.com/avatars/459498565371166720/a_7e4798c5bb37251380f7623065bca9cd.webp"
+    },
+    {
+      "id": "756218779842904168",
+      "name": "Sigia",
+      "role": "772928360241954846",
+      "pfp": "https://cdn.discordapp.com/avatars/756218779842904168/e816886619bb798f59ebfa2975803c5c.webp"
+    },
+    {
+      "id": "200440882334269440",
+      "name": "furf",
+      "role": "772928360241954846",
+      "pfp": "https://cdn.discordapp.com/avatars/200440882334269440/f51aa982adba759a75e26cb4ab9b540e.webp"
+    },
+    {
+      "id": "506442020118855681",
+      "name": "GenesiS",
+      "role": "772928360241954846",
+      "pfp": "https://cdn.discordapp.com/avatars/506442020118855681/05dbdab33f44f073ce94333653b21e06.webp"
+    },
+    {
+      "id": "147040087027220480",
+      "name": "Thanatos",
+      "role": "772928360241954846",
+      "pfp": "https://cdn.discordapp.com/avatars/147040087027220480/7907376d74cbd0345c716edeb1abbe47.webp"
+    },
+    {
+      "id": "426445388166201385",
+      "name": "Madeline",
+      "role": "772928360241954846",
+      "pfp": "https://cdn.discordapp.com/avatars/426445388166201385/a_c716f47aaf2fa523480d50118ef18d70.webp"
+    },
+    {
+      "id": "291620843363106828",
+      "name": "Tylerrrr",
+      "role": "772928360241954846",
+      "pfp": "https://cdn.discordapp.com/avatars/291620843363106828/e03579822584725a65d1c85dc60ce576.webp"
+    },
+    {
+      "id": "318220532678131714",
+      "name": "Duowithng",
+      "role": "772928360241954846",
+      "pfp": "https://cdn.discordapp.com/avatars/318220532678131714/c81733fa52f4810e3cb93462d4d7fb38.webp"
+    },
+    {
+      "id": "399049916757966848",
+      "name": "Hoss",
+      "role": "772928360241954846",
+      "pfp": "https://cdn.discordapp.com/avatars/399049916757966848/87f9f95e12a23dceb6c86d836207c49d.webp"
+    },
+    {
+      "id": "309701913685786624",
+      "name": "salpaka",
+      "role": "772928360241954846",
+      "pfp": "https://cdn.discordapp.com/avatars/309701913685786624/dfef90cf9549cdfd9cbeeb72e6b0cb4a.webp"
+    },
+    {
+      "id": "370758856038678530",
+      "name": "resanityyy",
+      "role": "772928360241954846",
+      "pfp": "https://cdn.discordapp.com/avatars/370758856038678530/f905c4d1a9ad516ef79b501a7786f5fb.webp"
+    },
+    {
+      "id": "211288288055525376",
+      "name": "Moulberry",
+      "role": "772928360241954846",
+      "pfp": "https://cdn.discordapp.com/avatars/211288288055525376/1d9bccd94f1b3bb739689739d77a8ffb.webp"
+    },
+    {
+      "id": "493164641921400853",
+      "name": "Shrimp",
+      "role": "772928360241954846",
+      "pfp": "https://cdn.discordapp.com/avatars/493164641921400853/3b1f555aec702ac9f11994de3116d9a5.webp"
+    },
+    {
+      "id": "344116492163612673",
+      "name": "mali comrade",
+      "role": "772928360241954846",
+      "pfp": "https://cdn.discordapp.com/avatars/344116492163612673/904860cc3656305c5563bc6126817fe5.webp"
+    },
+    {
+      "id": "485113423697412097",
+      "name": "Hasnu",
+      "role": "772928360241954846",
+      "pfp": "https://cdn.discordapp.com/avatars/485113423697412097/793dd7d199211b05e6cb81bc9e52ee4e.webp"
+    },
+    {
+      "id": "197923669098496000",
+      "name": "ModCruel",
+      "role": "772928360241954846",
+      "pfp": "https://cdn.discordapp.com/avatars/197923669098496000/a_acf21b1ec5c2403f239a7b40dfa80fb3.webp"
+    },
+    {
+      "id": "378106137586827276",
+      "name": "Skeletony",
+      "role": "772928360241954846",
+      "pfp": "https://cdn.discordapp.com/avatars/378106137586827276/79f8c2ab1db974e3b774055440345fe9.webp"
+    },
+    {
+      "id": "379652653552238612",
+      "name": "8KCoffeeWizard",
+      "role": "772928360241954846",
+      "pfp": "https://cdn.discordapp.com/avatars/379652653552238612/71d0aeb5adf768fb1959c74efa49d13a.webp"
+    },
+    {
+      "id": "571859986158845952",
+      "name": "DTRW191",
+      "role": "772928360241954846",
+      "pfp": "https://cdn.discordapp.com/avatars/571859986158845952/af7545bf48a8d123a06a9ea6b40fbd9c.webp"
+    },
+    {
+      "id": "750590649635700786",
+      "name": "Juniper",
+      "role": "772928360241954846",
+      "pfp": "https://cdn.discordapp.com/avatars/750590649635700786/31e9ed8a04791a9d3d7f41c36557674a.webp"
+    },
+    {
+      "id": "173683354200178688",
+      "name": "Drakoncheto",
+      "role": "772928360241954846",
+      "pfp": "https://cdn.discordapp.com/avatars/173683354200178688/0efeb8e1c2f2eef17bf03373ae772b6a.webp"
+    },
+    {
+      "id": "589613735996555264",
+      "name": "D43DALUS",
+      "role": "772928360241954846",
+      "pfp": "https://cdn.discordapp.com/avatars/589613735996555264/04bd0641bf85502e1dea148e35effe94.webp"
+    },
+    {
+      "id": "562448163353526313",
+      "name": "parakeet",
+      "role": "772928360241954846",
+      "pfp": "https://cdn.discordapp.com/avatars/562448163353526313/51407047c9c4ebff8cff75b386f93d0d.webp"
+    },
+    {
+      "id": "950146518843813959",
+      "name": "artificialair",
+      "role": "772928360241954846",
+      "pfp": "https://cdn.discordapp.com/avatars/950146518843813959/9c0c8bab087549d1ea012555b1b12719.webp"
+    },
+    {
+      "id": "622207953293803521",
+      "name": "tea",
+      "role": "772928360241954846",
+      "pfp": "https://cdn.discordapp.com/avatars/622207953293803521/baef5f6d0be0727ca9225df87b690754.webp"
+    },
+    {
+      "id": "678541597654253600",
+      "name": "mr_miner",
+      "role": "772928360241954846",
+      "pfp": "https://cdn.discordapp.com/avatars/678541597654253600/a5c36813814861592d024b059e128ba7.webp"
+    },
+    {
+      "id": "236082530045001731",
+      "name": "Suker",
+      "role": "772928360241954846",
+      "pfp": "https://cdn.discordapp.com/avatars/236082530045001731/cbf38b3930cee9ed779b513a6e24c768.webp"
+    },
+    {
+      "id": "663371660816154629",
+      "name": "PigTurtle",
+      "role": "772928360241954846",
+      "pfp": "https://cdn.discordapp.com/avatars/663371660816154629/63b0242dcab4c4f92fab9acef4228f71.webp"
+    },
+    {
+      "id": "501459973612765205",
+      "name": "motor",
+      "role": "792234642304139284",
+      "quote": "Flip a coin. If heads, I am on vacation. If tails, blame Ery.",
+      "pfp": "https://cdn.discordapp.com/avatars/501459973612765205/dab7489911ae58fce75aa8d9d0126b45.webp"
+    },
+    {
+      "id": "399049916757966848",
+      "name": "Hoss",
+      "role": "792234642304139284",
+      "pfp": "https://cdn.discordapp.com/avatars/399049916757966848/87f9f95e12a23dceb6c86d836207c49d.webp"
+    },
+    {
+      "id": "370935848029519882",
+      "name": "Zuck",
+      "role": "792234642304139284",
+      "pfp": "https://cdn.discordapp.com/avatars/370935848029519882/f0ea41f64f5d77a89e55edef271a7093.webp"
+    },
+    {
+      "id": "589613735996555264",
+      "name": "D43DALUS",
+      "role": "792234642304139284",
+      "pfp": "https://cdn.discordapp.com/avatars/589613735996555264/04bd0641bf85502e1dea148e35effe94.webp"
+    },
+    {
+      "id": "313350346724343809",
+      "name": "HellCastle",
+      "role": "792234642304139284",
+      "pfp": "https://cdn.discordapp.com/avatars/313350346724343809/36dca3564f2cbc4150f0f697e1f570c8.webp"
+    },
+    {
+      "id": "622207953293803521",
+      "name": "tea",
+      "role": "792234642304139284",
+      "pfp": "https://cdn.discordapp.com/avatars/622207953293803521/baef5f6d0be0727ca9225df87b690754.webp"
+    },
+    {
+      "id": "843791056252174338",
+      "name": "sirLunar",
+      "role": "772882533578047519",
+      "pfp": "https://cdn.discordapp.com/avatars/843791056252174338/1f5aa086864883df85093bd5fad1972b.webp"
+    },
+    {
+      "id": "687833315231006749",
+      "name": "zburger",
+      "role": "772882533578047519",
+      "pfp": "https://cdn.discordapp.com/avatars/687833315231006749/6d1e70afd96eabcc093a2704a4f78fb9.webp"
+    },
+    {
+      "id": "412224011062214656",
+      "name": "GqmeKnight",
+      "role": "772882533578047519",
+      "pfp": "https://cdn.discordapp.com/avatars/412224011062214656/ae1d886ff4bc260438f564f786332250.webp"
+    },
+    {
+      "id": "589613735996555264",
+      "name": "D43DALUS",
+      "role": "772882533578047519",
+      "pfp": "https://cdn.discordapp.com/avatars/589613735996555264/04bd0641bf85502e1dea148e35effe94.webp"
+    },
+    {
+      "id": "313350346724343809",
+      "name": "HellCastle",
+      "role": "772882533578047519",
+      "pfp": "https://cdn.discordapp.com/avatars/313350346724343809/36dca3564f2cbc4150f0f697e1f570c8.webp"
+    },
+    {
+      "id": "622207953293803521",
+      "name": "tea",
+      "role": "772882533578047519",
+      "pfp": "https://cdn.discordapp.com/avatars/622207953293803521/baef5f6d0be0727ca9225df87b690754.webp"
+    },
+    {
+      "id": "323135820439486474",
+      "name": "InfinityRing",
+      "role": "786640364920504330",
+      "pfp": "https://cdn.discordapp.com/avatars/323135820439486474/a_9ecf0b139c0b2e2823ab8640276852fd.webp"
+    },
+    {
+      "id": "312354836592984066",
+      "name": "Toasted_Breaad",
+      "role": "786640364920504330",
+      "pfp": "https://cdn.discordapp.com/avatars/312354836592984066/29bcb0834b272c546d52f163aae523bd.webp"
+    },
+    {
+      "id": "454615922909380619",
+      "name": "SeBook",
+      "role": "786640364920504330",
+      "pfp": "https://cdn.discordapp.com/avatars/454615922909380619/a_0fe1f24fe0fa9feb26f07097d43fc529.webp"
+    },
+    {
+      "id": "452954731162238987",
+      "name": "Nan",
+      "role": "786640364920504330",
+      "pfp": "https://cdn.discordapp.com/avatars/452954731162238987/0dadeff7c1b22955bd7f210911bc01c1.webp"
+    },
+    {
+      "id": "562448163353526313",
+      "name": "parakeet",
+      "role": "786640364920504330",
+      "pfp": "https://cdn.discordapp.com/avatars/562448163353526313/51407047c9c4ebff8cff75b386f93d0d.webp"
+    },
+    {
+      "id": "678541597654253600",
+      "name": "mr_miner",
+      "role": "786640364920504330",
+      "pfp": "https://cdn.discordapp.com/avatars/678541597654253600/a5c36813814861592d024b059e128ba7.webp"
+    },
+    {
+      "id": "236082530045001731",
+      "name": "Suker",
+      "role": "786640364920504330",
+      "pfp": "https://cdn.discordapp.com/avatars/236082530045001731/cbf38b3930cee9ed779b513a6e24c768.webp"
+    }
+  ]
+}

@@ -22,12 +22,20 @@ export class CommandSay implements Command {
       "653038455739121700",
       "291620843363106828",
       "750590649635700786",
+      "397516566176202762",
+      "370935848029519882",
+      "492488074442309642",
+      "182916294989971457",
+      "341667514071384065",
+      "589613735996555264"
     ];
     const { msg, args } = cmdArgs;
     const channel = msg.client.channels.cache.find(
       (channel) => channel.id === args[0].replace(/\D/g, "")
     );
     const [channelID, ...text] = args;
+    if (text.join(" ") == "You aren't whitelisted!")
+      return msg.channel.send("Shut the fuck up");
     if (!whitelist.includes(msg.author.id))
       return msg.channel.send("You aren't whitelisted!");
     if (!args[0] || !args[1]) return msg.channel.send("Expected 2 arguments");
