@@ -40,11 +40,11 @@ const roles: Roles = {
 
   "792234642304139284": {
     name: "Administrator",
-    color: "#4b8b3b",
+    color: "#17d44a",
   },
   "772882533578047519": {
     name: "Moderator",
-    color: "#17d44a",
+    color: "#4b8b3b",
   },
   "786640364920504330": {
     name: "Retired Staff",
@@ -85,11 +85,7 @@ export class CommandUpdate implements Command {
       for (const [userId, user] of msg.guild.roles.cache
         .get(roleId)
         .members.entries()) {
-        if (
-          !credits.some((credit) => {
-            credit.id === userId;
-          })
-        ) {
+        if (!credits.some((credit) => credit.id === userId)) {
           credits.push({
             id: userId,
             name: user.user.username,
