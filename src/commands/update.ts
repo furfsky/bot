@@ -33,6 +33,10 @@ const roles: Roles = {
     name: "Retired Artist",
     color: "#bbabdb",
   },
+  "788121309812490250": {
+    name: "Website Developer",
+    color: "#ffff00"
+  },
   "772928360241954846": {
     name: "Contributor",
     color: "#00b0b0",
