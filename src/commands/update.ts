@@ -35,7 +35,7 @@ const roles: Roles = {
   },
   "788121309812490250": {
     name: "Website Developer",
-    color: "#ffff00"
+    color: "#008080", //change color
   },
   "772928360241954846": {
     name: "Contributor",
@@ -90,14 +90,19 @@ export class CommandUpdate implements Command {
         .get(roleId)
         .members.entries()) {
         if (!credits.some((credit) => credit.id === userId)) {
-          credits.push({
-            id: userId,
-            name: user.user.username,
-            role: roleId,
-            quote: overrides[userId]?.quote,
-            link: overrides[userId]?.link,
-            pfp: user.user.avatarURL(),
-          });
+          credits.push(
+            Object.assign(
+              {
+                id: userId,
+                name: user.user.username,
+                role: roleId,
+                quote: "",
+                link: "",
+                pfp: user.user.avatarURL(),
+              },
+              overrides[userId]
+            )
+          );
         }
       }
     }
