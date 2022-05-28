@@ -35,13 +35,8 @@ const roles: Roles = {
   },
   "788121309812490250": {
     name: "Website Developer",
-    color: "#008080", //change color
+    color: "#008080",
   },
-  "772928360241954846": {
-    name: "Contributor",
-    color: "#00b0b0",
-  },
-
   "792234642304139284": {
     name: "Administrator",
     color: "#17d44a",
@@ -53,6 +48,10 @@ const roles: Roles = {
   "786640364920504330": {
     name: "Retired Staff",
     color: "#0d7f2c",
+  },
+  "772928360241954846": {
+    name: "Contributor",
+    color: "#00b0b0",
   },
 };
 
