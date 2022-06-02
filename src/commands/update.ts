@@ -74,7 +74,7 @@ const overrides: Overrides = {
   },
   "200440882334269440": {
     quote:
-      "im just now looking up furfsky again on youtube<br>and it made me realize how much i've missed since my last release",
+      "im just now looking up furfsky again on youtube and it made me realize how much i've missed since my last release",
   },
   "589613735996555264": {
     quote: "I'm built not born, it's an analytical advantage.",
@@ -130,25 +130,24 @@ const overrides: Overrides = {
   },
   "182916294989971457": {
     quote:
-      "hey, you could pour soup in my lap<br>and i'll probably apologize to you!",
+      "hey, you could pour soup in my lap and i'll probably apologize to you!",
   },
   "382275562762403852": {
-    quote:
-      "<a href='https://www.youtube.com/watch?v=oXL3KcowG90&list=OLAK5uy_mrQpw7Bipv-a7DFFerdXeLe-Ll4yxdE6U'>listen to creatures of habit</a>",
+    quote: "listen to creatures of habit",
+    link: "https://www.youtube.com/watch?v=oXL3KcowG90&list=OLAK5uy_mrQpw7Bipv-a7DFFerdXeLe-Ll4yxdE6U",
   },
   "734445096606498918": {
     quote: "those are uhh... a lot of channels... you got there.",
   },
   "753943771925708882": {
-    quote:
-      "spain without the s<br><small>(i just woke up i don't want to think)</small>",
+    quote: "spain without the s",
   },
   "425424496099328000": {
     quote: "yup ! I hate furfsky 🙂",
   },
   "146051610475233280": {
     quote:
-      "petition to remove the liver dragger's texture<br>from fsr because you should never use it",
+      "petition to remove the liver dragger's texture from fsr because you should never use it",
   },
   "567357006185496610": {
     quote: "Chroma HUD/UIs hurts my soul",
@@ -157,7 +156,7 @@ const overrides: Overrides = {
     quote: "we should broadcast my battle with the axe wielder tommorow at 5pm",
   },
   "273873363926253568": {
-    quote: "<code>[placeholder credit text]</code>",
+    quote: "[placeholder credit text]",
   },
   "393259749497372684": {
     quote:
@@ -177,7 +176,7 @@ const overrides: Overrides = {
   },
   "290952090560364545": {
     quote:
-      "<span style='background: -webkit-linear-gradient(top left, rgba(191,97,106,1) 0%, rgba(191,97,106,1) 20%, rgba(208,135,112,1) 20%, rgba(208,135,112,1) 35%, rgba(235,203,139,1) 35%, rgba(235,203,139,1) 50%, rgba(163,190,140,1) 50%, rgba(163,190,140,1) 65%, rgba(136,192,208,1) 65%, rgba(136,192,208,1) 80%, rgba(180,142,173,1) 80%, rgba(180,142,173,1) 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;'>I am very speical :)</span>",
+      "i can no longer code the website at school cause now everyone thinks im a furry 😔",
   },
   "678541597654253600": {
     quote: "reeee",
@@ -199,7 +198,7 @@ const overrides: Overrides = {
   },
   "236082530045001731": {
     quote:
-      "the fsr twitter is a place only the<br>highest level of memers can ascend to",
+      "the fsr twitter is a place only the highest level of memers can ascend to",
   },
   "340047021048070145": {
     quote: "help why is it so dark",
@@ -221,7 +220,7 @@ const overrides: Overrides = {
   },
   "712340020945748049": {
     quote:
-      "sometimes i question why artists that are<br>as good as the people here are making art for mc",
+      "sometimes i question why artists that are as good as the people here are making art for mc",
   },
   "426445388166201385": {
     quote: "download neu mod nerds",
@@ -234,14 +233,14 @@ const overrides: Overrides = {
   },
   "872063784255119410": {
     quote:
-      "at least you didn't get yourself<br>to design the whole sea creature guide",
+      "at least you didn't get yourself to design the whole sea creature guide",
   },
   "135467966014816256": {
     quote: "I use MS paint for my pixel art",
   },
   "435443705055543306": {
     quote:
-      "just have it a normal file name,<br>the cancer that is mediafire only makes things worse",
+      "just have it a normal file name, the cancer that is mediafire only makes things worse",
   },
   "459498565371166720": {
     quote: "om im stoopid",
@@ -256,7 +255,7 @@ const overrides: Overrides = {
     quote: "#FSRGangOnTop",
   },
   "197923669098496000": {
-    quote: "Stop making bad <code>.json</code> files.",
+    quote: "Stop making bad .json files.",
   },
   "756218779842904168": {
     quote: "damn, why is aseprite so expensive",
