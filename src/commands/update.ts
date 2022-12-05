@@ -5,6 +5,7 @@ import { writeFile } from "fs/promises";
 interface Role {
   name: string; // Does not need to match up with the roles on discord
   color: string;
+  pfp: boolean;
 }
 
 type Roles = {
@@ -15,43 +16,53 @@ const roles: Roles = {
   "772842526452875305": {
     name: "Head of Head Artist",
     color: "#ffa500",
+    pfp: true,
   },
   "776504774317047859": {
     name: "Head Artist",
     color: "#d776ff",
+    pfp: true,
   },
   "859275007556845578": {
     name: "Original Furfsky Creator",
     color: "#c041ff",
+    pfp: true,
   },
   "772842293223751690": {
     name: "Artist",
     color: "#b19cd9",
+    pfp: true,
   },
   // TODO TRIAL ARTIST (no more trial artist??)
   "786640237329383506": {
     name: "Retired Artist",
     color: "#bbabdb",
+    pfp: true,
   },
   "788121309812490250": {
     name: "Website Developer",
     color: "#008080",
+    pfp: true,
   },
   "792234642304139284": {
     name: "Administrator",
     color: "#17d44a",
+    pfp: true,
   },
   "772882533578047519": {
     name: "Moderator",
     color: "#4b8b3b",
+    pfp: false,
   },
   "786640364920504330": {
     name: "Retired Staff",
     color: "#0d7f2c",
+    pfp: false,
   },
   "772928360241954846": {
     name: "Contributor",
     color: "#00b0b0",
+    pfp: false,
   },
 };
 
